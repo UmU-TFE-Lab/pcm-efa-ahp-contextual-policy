@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Raw, fused, derived, or model data: never commit these files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.sqlite
+*.db
+data/private/
+data/raw/
+data/processed/
+
+# Locally generated analysis artifacts
+outputs/
+figures/
+logs/
+
+# Editable manuscript artwork is maintained locally, not in the code release
+figure_sources/
+*.pptx
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*
+*.swp
+*.tmp
