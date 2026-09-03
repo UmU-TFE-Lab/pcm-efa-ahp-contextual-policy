@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcm-efa-ahp-contextual-policy"
+version = "0.1.0"
+description = "Reproducible EFA-AHP screening and offline contextual-policy evaluation for PCM-TES configurations"
+requires-python = ">=3.9"
+dependencies = [
+  "matplotlib>=3.7,<4",
+  "numpy>=1.24,<3",
+  "pandas>=2.0,<3",
+  "seaborn>=0.12,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<9"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pcm_efa_ahp*", "pcm_efa_ahp_rl*", "pcm_journal_extension*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["pcm_efa_ahp", "pcm_efa_ahp_rl", "pcm_journal_extension"]
+addopts = "-ra"
