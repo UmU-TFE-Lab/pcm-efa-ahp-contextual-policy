@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "PCM EFA-AHP screening and offline contextual-policy evaluation code"
+type: software
+version: 0.1.0
+date-released: 2026-09-03
+authors:
+  - family-names: Liu
+    given-names: Bokai
+  - family-names: Liu
+    given-names: Pengju
+  - family-names: Lee
+    given-names: Sunjae
+  - family-names: Xiao
+    given-names: Changrong
+  - family-names: Rabczuk
+    given-names: Timon
+  - family-names: Olofsson
+    given-names: Thomas
+  - family-names: Zi
+    given-names: Goangseup
+
