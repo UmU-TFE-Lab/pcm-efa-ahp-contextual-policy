@@ -87,9 +87,7 @@ Full numerical reproduction requires the authorized local input table. Random se
 
 The static result is a state-distribution-weighted screening result, not proof of a universal optimum across physically different applications. The contextual component is an offline contextual-bandit evaluation of an internally constructed EFA-AHP reward, not online reinforcement learning or validated closed-loop control. The low-order rerun checks candidate-set plausibility and does not validate the final rank order.
 
-## Figure-source boundary
 
-The Python builders for manuscript Figures 1-7 are included. Editable PowerPoint sources for Figure 1 and the AHP hierarchy are maintained separately and are intentionally excluded from this code release.
 
 ## Release status
 
