@@ -68,7 +68,6 @@ Generated tables, reports, and figures are written to ignored local directories.
 | `pcm_journal_extension/supplementary_audits.py` | Expert leave-one-out, provenance rules, within-system summaries, low-order enthalpy screen |
 | `scripts/build_figure1.py` | Main evidence-to-decision workflow figure |
 | `scripts/build_result_figures.py` | Result Figures 2-7 from locally generated outputs |
-| `figure_sources/` | Editable PowerPoint sources for the framework and AHP hierarchy figures |
 
 The detailed manuscript-to-code crosswalk is in [Method-to-code map](docs/METHOD_TO_CODE_MAP.md).
 
@@ -88,7 +87,10 @@ Full numerical reproduction requires the authorized local input table. Random se
 
 The static result is a state-distribution-weighted screening result, not proof of a universal optimum across physically different applications. The contextual component is an offline contextual-bandit evaluation of an internally constructed EFA-AHP reward, not online reinforcement learning or validated closed-loop control. The low-order rerun checks candidate-set plausibility and does not validate the final rank order.
 
+## Figure-source boundary
+
+The Python builders for manuscript Figures 1-7 are included. Editable PowerPoint sources for Figure 1 and the AHP hierarchy are maintained separately and are intentionally excluded from this code release.
+
 ## Release status
 
-The repository is prepared for source release, but the final public license, GitHub URL, and archived release DOI should be selected before publication. Follow [Release checklist](docs/RELEASE_CHECKLIST.md).
-
+The source repository is public. An explicit software license and archived release DOI should be selected before publication. Follow [Release checklist](docs/RELEASE_CHECKLIST.md).
